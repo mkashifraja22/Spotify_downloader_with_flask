@@ -14,8 +14,8 @@ from pytube import YouTube
 from rich.console import Console
 from spotipy.oauth2 import SpotifyClientCredentials
 
-SPOTIPY_CLIENT_ID = '09751d0e5c42480d99929a98659bf4d1'
-SPOTIPY_CLIENT_SECRET = '7ccbcbd7b1a94006bff87cf07e518711'
+SPOTIPY_CLIENT_ID = 'Your client id'
+SPOTIPY_CLIENT_SECRET = 'your secret key'
 
 client_credentials_manager = SpotifyClientCredentials(
     client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET
